@@ -1,8 +1,10 @@
-import React from 'react'
+import BottomNav from './components/BottomNav'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <BottomNav />
+    </div>
   )
 }
 
