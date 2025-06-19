@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+    "title": "Jungles",
+    "description": "Discover the journey of Bear.",
+    "userName": "Prantik Ghosh",
+    "userImage": "https://avatars.githubusercontent.com/u/118633815?s=400&u=fa07198153f160337d7861958fde9c74e2a0a7d7&v=4",
+    "likes": 200000,
+    "comments": 1300,
+    "shares": 456,
+    "earnings": 2100,
+    "isPaid": true
+  },
+  {
+    "id": 2,
+    "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4",
+    "title": "Innovation in Tech",
+    "description": "Explore breakthroughs and creative ideas.",
+    "userName": "Anita Tech",
+    "userImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "likes": 120000,
+    "comments": 980,
+    "shares": 320,
+    "earnings": 1800,
+    "isPaid": false
+  }
+]

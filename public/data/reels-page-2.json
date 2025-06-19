@@ -1,0 +1,28 @@
+[
+  {
+    "id": 3,
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "title": "Morning Hustle",
+    "description": "Kickstart your day with the right energy and motivation.",
+    "userName": "RiseAndGrind",
+    "userImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "likes": 98700,
+    "comments": 520,
+    "shares": 112,
+    "earnings": 780,
+    "isPaid": false
+  },
+  {
+    "id": 4,
+    "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4",
+    "title": "Tech Simplified",
+    "description": "Breaking down complex tech ideas for everyone.",
+    "userName": "TechTalks",
+    "userImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "likes": 176500,
+    "comments": 890,
+    "shares": 210,
+    "earnings": 1230,
+    "isPaid": true
+  }
+]
