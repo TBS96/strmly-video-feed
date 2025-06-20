@@ -22,7 +22,8 @@ function ReelCard({ data }) {
     if (isVisible && !manuallyPaused.current) {
       videoRef.current.play();
       setIsPaused(false);
-    } else if (!isVisible) {
+    }
+    else if (!isVisible) {
       videoRef.current.pause();
       setIsPaused(true);
     }
@@ -36,7 +37,8 @@ function ReelCard({ data }) {
       setOverlayIcon('pause');
       setIsPaused(false);
       manuallyPaused.current = false;
-    } else {
+    }
+    else {
       videoRef.current.pause();
       setOverlayIcon('play');
       setIsPaused(true);
@@ -125,4 +127,4 @@ function ReelCard({ data }) {
   )
 }
 
-export default memo(ReelCard);
+export default memo(ReelCard)
