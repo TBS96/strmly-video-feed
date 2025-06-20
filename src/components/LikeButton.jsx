@@ -10,14 +10,19 @@ const LikeButton = ({ id, initialLikes }) => {
   const [likes, setLikes] = useState(initialLikes);
   const [loading, setLoading] = useState(false);
 
+  // console.log(likes);
+
   const handleLike = async () => {
     if (loading) return;
     const optimisticLikes = isLiked ? likes - 1 : likes + 1;
     setLikes(optimisticLikes);
+    // console.log(optimisticLikes);
     toggleLike(id);
+    // console.log(isLiked, id);
     setLoading(true);
 
     const success = await simulateLikeAPI();
+    // console.log(success);
     if (!success) {
       // revert
       setLikes(likes);

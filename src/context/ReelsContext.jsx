@@ -10,6 +10,7 @@ export const ReelsProvider = ({ children }) => {
 
   const toggleLike = (id) => {
     setLikedVideos((prev) => prev.includes(id) ? prev.filter((vid) => vid !== id) : [...prev, id]);
+    // console.log(likedVideos);
   };
 
   const toggleFollow = (name) => {
