@@ -12,6 +12,9 @@ export const useInView = (ref) => {
     }, {threshold: 0.7});
 
     observer.observe(ref.current);
+    
+    // console.log(observer.thresholds);
+    // console.log(isIntersecting);
 
     return () => {
       observer.disconnect();
