@@ -1,28 +1,28 @@
 [
   {
     "id": 3,
-    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-    "title": "Morning Hustle",
-    "description": "Kickstart your day with the right energy and motivation.",
-    "userName": "RiseAndGrind",
-    "userImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "likes": 98700,
-    "comments": 520,
-    "shares": 112,
-    "earnings": 780,
-    "isPaid": false
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "title": "Sintel",
+    "description": "A beautiful story of a young girl's journey.",
+    "userName": "Blender Films",
+    "userImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "likes": 300000,
+    "comments": 2500,
+    "shares": 800,
+    "earnings": 3800,
+    "isPaid": true
   },
   {
     "id": 4,
-    "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4",
-    "title": "Tech Simplified",
-    "description": "Breaking down complex tech ideas for everyone.",
-    "userName": "TechTalks",
-    "userImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "likes": 176500,
-    "comments": 890,
-    "shares": 210,
-    "earnings": 1230,
-    "isPaid": true
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "title": "Bunny's Adventures",
+    "description": "More fun with the Big Buck Bunny.",
+    "userName": "Animation House",
+    "userImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "likes": 100000,
+    "comments": 700,
+    "shares": 250,
+    "earnings": 1300,
+    "isPaid": false
   }
 ]

@@ -1,28 +1,28 @@
 [
   {
     "id": 5,
-    "videoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-    "title": "Nature's Beauty",
-    "description": "A peaceful escape into lush greenery and wildlife.",
-    "userName": "NatureZen",
-    "userImage": "https://randomuser.me/api/portraits/women/60.jpg",
-    "likes": 84500,
-    "comments": 650,
-    "shares": 198,
-    "earnings": 960,
-    "isPaid": false
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    "title": "Tears of Steel",
+    "description": "A science fiction short film.",
+    "userName": "Sci-Fi Studios",
+    "userImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "likes": 220000,
+    "comments": 1800,
+    "shares": 600,
+    "earnings": 2500,
+    "isPaid": true
   },
   {
     "id": 6,
-    "videoUrl": "https://sample-videos.com/video123/mp4/720/sample-10s.mp4",
-    "title": "Startup Ideas",
-    "description": "Pitching concepts that could become the next big thing.",
-    "userName": "StartupGuru",
-    "userImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "likes": 222000,
-    "comments": 1020,
-    "shares": 450,
-    "earnings": 3400,
-    "isPaid": true
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    "title": "Bigger Fun",
+    "description": "Short clip showcasing various fun moments.",
+    "userName": "Happy Clips",
+    "userImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "likes": 80000,
+    "comments": 500,
+    "shares": 200,
+    "earnings": 950,
+    "isPaid": false
   }
 ]

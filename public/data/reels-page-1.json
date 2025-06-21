@@ -14,15 +14,15 @@
   },
   {
     "id": 2,
-    "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4",
-    "title": "Innovation in Tech",
-    "description": "Explore breakthroughs and creative ideas.",
-    "userName": "Anita Tech",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "title": "Big Buck Bunny",
+    "description": "A short animated film by Blender Foundation.",
+    "userName": "Blender Films",
     "userImage": "https://randomuser.me/api/portraits/women/22.jpg",
-    "likes": 120000,
-    "comments": 980,
-    "shares": 320,
-    "earnings": 1800,
+    "likes": 150000,
+    "comments": 1100,
+    "shares": 400,
+    "earnings": 2000,
     "isPaid": false
   }
 ]
