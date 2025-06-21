@@ -3,6 +3,7 @@ import { useInView } from '../hooks/useInView';
 import { MessageCircle, Share2, IndianRupee, MoreVertical, Play, Pause, Volume2, VolumeX } from 'lucide-react';
 import FollowButton from './FollowButton';
 import LikeButton from './LikeButton';
+import VideoSeekbar from './VideoSeekbar';
 
 function ReelCard({ data }) {
   
@@ -14,6 +15,24 @@ function ReelCard({ data }) {
   const [isMuted, setIsMuted] = useState(true);
   const [isPaused, setIsPaused] = useState(false);
   const manuallyPaused = useRef(false);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const handleLoadedMetadata = () => setDuration(video.duration);
+    const handleTimeUpdate = () => setCurrentTime(video.currentTime);
+
+    video.addEventListener('loadedmetadata', handleLoadedMetadata);
+    video.addEventListener('timeupdate', handleTimeUpdate);
+
+    return () => {
+      video.removeEventListener('loadedmetadata', handleLoadedMetadata);
+      video.removeEventListener('timeupdate', handleTimeUpdate);
+    };
+  }, []);
 
   useEffect(() => {
     if (!videoRef.current) return;
@@ -123,6 +142,18 @@ function ReelCard({ data }) {
         </div>
         <MoreVertical size={24} />
       </div>
+
+      {/* If the video is visible then render the seekbar */}
+      {isVisible && (
+        <VideoSeekbar 
+          currentTime={currentTime}
+          duration={duration}
+          onSeek={(time) => {
+            videoRef.current.currentTime = time;
+            setCurrentTime(time);
+          }}
+        />
+      )}
     </div>
   )
 }
