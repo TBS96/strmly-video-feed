@@ -27,6 +27,7 @@ A fully responsive vertical video feed app inspired by Instagram Reels and Faceb
 ### Reel Feed
 - One video per full-screen view (snap scrolling)
 - Auto-play when in view, pause when out
+- Functional video seekbar, with showing the length of the video
 - Tap to toggle:
   - Play/Pause (with central overlay icon)
   - Mute/Unmute (top-left icon)
@@ -87,7 +88,8 @@ A fully responsive vertical video feed app inspired by Instagram Reels and Faceb
 │   │   ├── FollowButton.jsx
 │   │   ├── LikeButton.jsx
 │   │   ├── LoadingScreen.jsx
-│   │   └── ReelCard.jsx
+│   │   ├── ReelCard.jsx
+│   │   └── VideoSeekbar.jsx
 │   ├── context
 │   │   └── ReelsContext.jsx
 │   ├── hooks
@@ -100,7 +102,7 @@ A fully responsive vertical video feed app inspired by Instagram Reels and Faceb
 │       └── reelService.js
 └── vite.config.js
 
-10 directories, 24 files
+10 directories, 25 files
 ```
 
 <!-- ---
