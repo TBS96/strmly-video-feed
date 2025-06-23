@@ -18,7 +18,7 @@ const App = () => {
       setLoading(true);
       const response = await fetch(`/data/reels-page-${page}.json`);
       if (!response.ok) {
-        throw Error('Error fetching data');
+        throw new Error('Error fetching data');
       }
       const newReels = await response.json();
       // console.log(newReels);
