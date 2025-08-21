@@ -17,7 +17,7 @@ A fully responsive vertical video feed app inspired by Instagram Reels and Faceb
 - **Styling:** Tailwind CSS
 - **Global State:** React Context API
 - **Icons:** Lucide React
-- **Optimizations:** React.memo, useCallback, IntersectionObserver
+- **Optimizations:** React.memo(), useCallback(), IntersectionObserver()
 - **Mock API:** JSON files & local state
 
 ---
