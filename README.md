@@ -1,4 +1,4 @@
-# 🎬 Strmly Video Feed Web App
+# 🎬 Video Feed Web App
 
 A fully responsive vertical video feed app inspired by Instagram Reels and Facebook Shorts. Built using React.js, Tailwind CSS, and Context API. Optimized for smooth performance, mobile-first design, and modern UX behavior.
 <!-- 
